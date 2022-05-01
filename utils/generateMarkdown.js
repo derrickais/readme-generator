@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Creates a function that returns a license badge based on which license is passed in
+// If there is no license, returns an empty string
 function renderLicenseBadge(license) {
   if(license === 'MIT'){
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
@@ -17,8 +17,8 @@ function renderLicenseBadge(license) {
   return ""
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Creates a function that returns the license link
+// If there is no license, returns an empty string
 function renderLicenseLink(license) {
   if(license === 'MIT'){
     return "[MIT](https://opensource.org/licenses/MIT)"
@@ -36,8 +36,8 @@ function renderLicenseLink(license) {
   else return ""
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Creates a function that returns the license section of README
+// If there is no license, returns an empty string
 function renderLicenseSection(license) {
   if(license != "None"){
     return `
@@ -51,6 +51,7 @@ ${renderLicenseLink(license)}
   }
 }
 
+// Formats contributor string into a markdown list
 function getContributors(contributors) {
   const markdown = contributors.split(',').map(contributor => {
     return `* ${contributor.trim()}\n\n`
@@ -59,7 +60,7 @@ function getContributors(contributors) {
   return markdown.join('');
 }
 
-// TODO: Create a function to generate markdown for README
+// Creates a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseSection(data.license)}

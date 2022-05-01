@@ -12,7 +12,7 @@ const checkIfEmpty = value => {
     }
 }
 
-//Creates an array of questions for user input
+// Creates an array of questions for user input
 const promptUsers = () => {
     return inquirer.prompt([
         {
@@ -74,7 +74,7 @@ const promptUsers = () => {
 }
 
     
-// TODO: Create a function to write README file
+// Creates a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName,data, err => {
         if(err) throw new Error(err);
@@ -83,7 +83,7 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+// Creates a function to initialize app
 function init() {
     promptUsers()
     .then(answers => {
