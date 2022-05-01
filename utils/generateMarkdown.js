@@ -61,8 +61,7 @@ function getContributors(contributors) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-# ${data.title}
+  return `# ${data.title}
 ${renderLicenseSection(data.license)}
 ## Description 
 

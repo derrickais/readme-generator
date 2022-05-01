@@ -1,9 +1,13 @@
+# README Generator
 
-# d
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT)
+
+    
 ## Description 
 
-d
+Generates a README
 
 ## Table of Contents 
 
@@ -15,21 +19,25 @@ d
 
 ## Installation
 
-d
+Clone git repository and run npm install
 
 ## Usage
 
-d
+run node index and answer the questions in the terminal
 
 ## Contributors
 
-* d
+* derrickais
+
+* Xandromus
+
+* gchoi2u
 
 
 
 ## Tests
 
-d
+After answering questions, check in the dist directory for README.md file
 
 ## Contact
 
@@ -37,6 +45,6 @@ Any questions, comments, or concern?
 
 Contact me at: 
 
-[Github](https://github.com/d)
+[Github](https://github.com/derrickais)
 
-[Email](mailto:d)
+[Email](mailto:derrickas728@gmail.com)
