@@ -1,11 +1,9 @@
 
-# ll
-
-_liscense_
+# d
 
 ## Description 
 
-ll
+d
 
 ## Table of Contents 
 
@@ -17,25 +15,21 @@ ll
 
 ## Installation
 
-ll
+d
 
 ## Usage
 
-ll
+d
 
 ## Contributors
 
-* derrtic
-
-* k ds
-
-* fddf
+* d
 
 
 
 ## Tests
 
-s
+d
 
 ## Contact
 
@@ -43,6 +37,6 @@ Any questions, comments, or concern?
 
 Contact me at: 
 
-[Github](https://github.com/s)
+[Github](https://github.com/d)
 
-[Email](mailto:s)
+[Email](mailto:d)

@@ -43,7 +43,7 @@ const promptUsers = () => {
             type: 'list',
             name: 'license',
             message: 'What type of license does your project have',
-            choices: ['MIT', 'Apache', 'GLP']
+            choices: ['MIT', 'Apache', 'IBM', 'Boost', 'None']
         },
         {
             type: 'input',
