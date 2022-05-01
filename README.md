@@ -16,6 +16,7 @@ Generates a README
 * [Contributors](#contributors)
 * [Tests](#tests)
 * [Contact](#contact)
+* [Video](#video)
 
 ## Installation
 
@@ -48,3 +49,6 @@ Contact me at:
 [Github](https://github.com/derrickais)
 
 [Email](mailto:derrickas728@gmail.com)
+
+## Video
+https://youtu.be/f8s7sn9CJ9U
